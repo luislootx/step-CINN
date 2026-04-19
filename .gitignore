@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/
+figures/
+results/
+*.png
+*.pdf
+!figures/architecture.png
