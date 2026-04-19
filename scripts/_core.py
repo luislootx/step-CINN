@@ -244,12 +244,12 @@ RESULTS_DIR = os.path.join(SCRIPT_DIR, 'results')
 
 
 def fig_path(name):
-    """Absolute path for a figure file under paper/scripts/figures/."""
+    """Absolute path for a figure file under scripts/figures/."""
     os.makedirs(FIGURES_DIR, exist_ok=True)
     return os.path.join(FIGURES_DIR, name)
 
 
 def result_path(name):
-    """Absolute path for a JSON result file under paper/scripts/results/."""
+    """Absolute path for a JSON result file under scripts/results/."""
     os.makedirs(RESULTS_DIR, exist_ok=True)
     return os.path.join(RESULTS_DIR, name)
